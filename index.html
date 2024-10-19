@@ -11,7 +11,6 @@
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
             <li><a href="#cv">CV</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -20,25 +19,15 @@
     <!-- Introduction Section -->
     <section id="about">
         <h1>Hello, I'm Mohammad Hossein</h1>
-        <p>I am currently seeking a PhD position, working under the supervision of Professor Mostafa Milani at Western University. My research focuses on fairness in AI and entity matching.</p>
+        <p>I am currently seeking a PhD position, working under the supervision of Professor Mostafa Milani at Western University. My research focuses on fairness in AI and entity matching. Specifically, I explore methods to ensure responsible AI through fair data management and post-processing techniques. I have worked on fairness calibration using optimal transport and developed new threshold-independent fairness metrics in entity matching systems. My research aims to mitigate biases in AI systems and ensure that outcomes are fair and equitable across different groups.</p>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/your-username/project1">Project 1</a> - Brief description of Project 1.</li>
-            <li><a href="https://github.com/your-username/project2">Project 2</a> - Brief description of Project 2.</li>
-        </ul>
+    <!-- CV Section -->
+    <section id="cv">
+        <h2>My CV</h2>
+        <p><button onclick="downloadCV()">Download my CV</button></p>
+        <iframe src="https://raw.githubusercontent.com/mhmoslemi2338/mhmoslemi2338.github.io/master/CV_moslemi.pdf" width="100%" height="600px"></iframe>
     </section>
-
-<!-- CV Section -->
-<section id="cv">
-    <h2>My CV</h2>
-    <p><a href="https://raw.githubusercontent.com/mhmoslemi2338/mhmoslemi2338.github.io/master/CV_moslemi.pdf" target="_blank" download>Download my CV</a></p>
-    <iframe src="https://raw.githubusercontent.com/mhmoslemi2338/mhmoslemi2338.github.io/master/CV_moslemi.pdf" width="100%" height="600px"></iframe>
-</section>
-
 
     <!-- Contact Section -->
     <section id="contact">
@@ -54,5 +43,11 @@
     <footer>
         <p>&copy; 2024 Mohammad Hossein. All rights reserved.</p>
     </footer>
+
+    <script>
+        function downloadCV() {
+            window.open('https://raw.githubusercontent.com/mhmoslemi2338/mhmoslemi2338.github.io/master/CV_moslemi.pdf', '_blank');
+        }
+    </script>
 </body>
 </html>
