@@ -11,8 +11,6 @@ I am currently seeking a PhD position, and I am working under the supervision of
 - **CV**: A downloadable version of my CV and an embedded view on the site.
 - **Contact**: How to reach me via email or connect with me on LinkedIn and Google Scholar.
 
-## How to Access
-You can view the website live at: [https://your-username.github.io](https://your-username.github.io)
 
 ## Contact Information
 - **Email**: [mohammad.moslemi@uwo.ca](mailto:mohammad.moslemi@uwo.ca)
