@@ -1,4 +1,4 @@
-# Mohammad Hossein's Personal Website
+# Mohammad Hossein Moslemi
 
 Welcome to my personal website! This is a simple site hosted on GitHub Pages to showcase my projects, academic work, and CV.
 
